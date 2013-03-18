@@ -3398,8 +3398,8 @@ msgstr "Асуултыг дараах шалтгааны улмаас хаав -
 #: forum/skins/default/templates/question.html:149
 msgid "One Answer:"
 msgid_plural "%(counter)s Answers:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Хариулт:"
+msgstr[1] "%(counter)s Хариулт:"
 
 #: forum/skins/default/templates/question.html:199
 msgid "Your answer"
