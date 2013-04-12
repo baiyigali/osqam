@@ -545,7 +545,7 @@ msgstr "асуусан"
 
 #: forum/actions/node.py:34
 msgid "%(user)s asked %(question)s"
-msgstr "%(user)s-н асуусан %(question)s-д"
+msgstr "%(user)s %(question)s хэмээн асуужээ"
 
 #: forum/actions/node.py:40 forum/templatetags/node_tags.py:260
 msgid "answered"
@@ -553,7 +553,7 @@ msgstr "хариулсан"
 
 #: forum/actions/node.py:55
 msgid "%(user)s answered %(asker)s on %(question)s"
-msgstr "%(user)s-н %(asker)s-н %(question)s-д хариулсан нь"
+msgstr "%(asker)s-н %(question)s асуултад %(user)s хариулжээ"
 
 #: forum/actions/node.py:62
 msgid "commented"
@@ -561,7 +561,7 @@ msgstr "сэтгэгдэлтэй"
 
 #: forum/actions/node.py:70
 msgid "%(user)s commented on %(post_desc)s"
-msgstr "%(post_desc)s-д тайлбар бичсэн %(user)s-д"
+msgstr "%(post_desc)s дээр %(user)s хариу бичсэн"
 
 #: forum/actions/node.py:76 forum/actions/page.py:23
 msgid "edited"
@@ -674,7 +674,7 @@ msgstr "нэвтэрсэн"
 
 #: forum/actions/user.py:31
 msgid "%(user)s %(have_has)s logged in"
-msgstr "%(user)s %(have_has)s logged in"
+msgstr "%(user)s нэвтрэн оржээ"
 
 #: forum/actions/user.py:37
 msgid "validated e-mail"
@@ -682,11 +682,11 @@ msgstr "баталгаажсан имэйл"
 
 #: forum/actions/user.py:47
 msgid "%(user)s %(have_has)s validated the e-mail %(email)s"
-msgstr "%(user)s %(have_has)s validated the e-mail %(email)s"
+msgstr "%(user)s хэрэглэгч %(email)s хаягаа баталгаажууллаа"
 
 #: forum/actions/user.py:54
 msgid "edited profile"
-msgstr "Засагдсан профайл"
+msgstr "Зассан профайл"
 
 #: forum/actions/user.py:57
 msgid "%(user)s edited %(hes_or_your)s %(profile_link)s"
@@ -758,7 +758,7 @@ msgstr "Баяр хүргэе, та '%(badge_name)s' медальтай болл
 
 #: forum/actions/user.py:190
 msgid "%(user)s %(were_was)s awarded the %(badge_name)s badge"
-msgstr "%(user)s %(were_was)s awarded the %(badge_name)s badge"
+msgstr "%(user)s хэрэглэгч %(badge_name)s медалиар шагнуулжээ"
 
 #: forum/actions/user.py:192
 msgid "were"
@@ -5804,7 +5804,7 @@ msgstr "Та %s-тай холбоогоо тасаллаа"
 
 #: forum/views/auth.py:390
 msgid "Welcome back %s, you are now logged in"
-msgstr "%s буцаж тавтай морилно уу, та одоо нэвтэрсэн болно"
+msgstr "%s эргэн тавтай морилно уу, та одоо нэвтэрсэн болно"
 
 #: forum/views/auth.py:404
 msgid "You have a %s pending submission."
