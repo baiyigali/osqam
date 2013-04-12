@@ -1186,11 +1186,11 @@ msgstr "[Unpublished] %s"
 
 #: forum/models/question.py:34
 msgid "[deleted] "
-msgstr "устсан"
+msgstr "[устсан] "
 
 #: forum/models/question.py:37
 msgid "[closed] "
-msgstr "хаагдсан"
+msgstr "[хаагдсан] "
 
 #: forum/models/tag.py:68
 msgid "interesting"
@@ -1799,7 +1799,7 @@ msgstr "Define the moderation workflow of your site"
 
 #: forum/settings/moderation.py:11
 msgid "Use canned comments"
-msgstr "Use canned comments"
+msgstr "Бэлдсэн сэтгэгдэл ашиглах"
 
 #: forum/settings/moderation.py:12
 msgid "If you check, the canned comments feature will be activated, allowing moderators to use canned patterns for their comments."
@@ -1807,7 +1807,7 @@ msgstr "If you check, the canned comments feature will be activated, allowing mo
 
 #: forum/settings/moderation.py:20
 msgid "Canned comments"
-msgstr "Canned comments"
+msgstr "Бэлдсэн сэтгэгдэл"
 
 #: forum/settings/moderation.py:21
 msgid "\n"
@@ -2951,7 +2951,7 @@ msgstr "хүрэл медалийн тодорхойлолт"
 
 #: forum/skins/default/templates/base_content.html:40
 msgid "Are you sure?"
-msgstr "Итгэлтэй байна уу?"
+msgstr "Нээрээ юу?"
 
 #: forum/skins/default/templates/base_content.html:41
 msgid "Yes"
@@ -3934,7 +3934,7 @@ msgstr "цуцлах"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:24
 msgid "Use canned comment"
-msgstr "Use canned comment"
+msgstr "Бэлдсэн сэтгэгдэл ашиглах"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:41
 #: forum/skins/default/templates/node/comments.html:19
@@ -3949,11 +3949,11 @@ msgstr "сэтгэгдэл устгах"
 #: forum/skins/default/templates/node/comment_skeleton.html:45
 #: forum/skins/default/templates/node/comments.html:27
 msgid "Convert comment to answer"
-msgstr "Комментийг хариулт болгох"
+msgstr "Сэтгэгдлийг хариулт болгох"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:48
 msgid "just now"
-msgstr "яг одоо"
+msgstr "саяхан"
 
 #: forum/skins/default/templates/node/comments.html:15
 msgid "I like this comment (click again to cancel)"
@@ -3973,7 +3973,7 @@ msgstr "show %(more_comments_count)s more comments"
 
 #: forum/skins/default/templates/node/comments.html:52
 msgid "add new comment"
-msgstr "шинэ сэтгэгдэл"
+msgstr "шинэ сэтгэгдэл бичих"
 
 #: forum/skins/default/templates/node/convert_to_comment.html:4
 msgid "Place the comment under:"
@@ -4006,7 +4006,7 @@ msgstr "цааш"
 
 #: forum/skins/default/templates/node/report.html:3
 msgid "Please select a reason bellow or use the text box to input your own reason."
-msgstr "Please select a reason bellow or use the text box to input your own reason."
+msgstr "Доорх талбараас шалтгаан сонгох буюу бичвэрийн талбарт өөр шалтгаан бичнэ үү."
 
 #: forum/skins/default/templates/node/vote_buttons.html:3
 msgid "I like this post (click again to cancel)"
@@ -5264,8 +5264,8 @@ msgid "\n"
 msgid_plural "\n"
 "                <span class=\"count\">%(counter)s</span> Questions\n"
 "                "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"count\">%(counter)s</span> асуулт"
+msgstr[1] "<span class=\"count\">%(counter)s</span> асуулт"
 
 #: forum/skins/default/templates/users/stats.html:37
 msgid "\n"
@@ -5274,8 +5274,8 @@ msgid "\n"
 msgid_plural "\n"
 "                <span class=\"count\">%(counter)s</span> Answers\n"
 "                "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"count\">%(counter)s</span> хариулт"
+msgstr[1] "<span class=\"count\">%(counter)s</span> хариулт"
 
 #: forum/skins/default/templates/users/stats.html:51
 msgid "the answer has been voted for %(vote_count)s times"
@@ -5292,8 +5292,8 @@ msgid "\n"
 msgid_plural "\n"
 "                    <span class=\"count\">%(cnt)s</span> Votes\n"
 "                "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"count\">%(cnt)s</span> санал\n"
+msgstr[1] "<span class=\"count\">%(cnt)s</span> санал\n"
 
 #: forum/skins/default/templates/users/stats.html:83
 msgid "thumb up"
@@ -5592,19 +5592,19 @@ msgstr "устгахгүй"
 
 #: forum/templatetags/node_tags.py:156
 msgid "see revisions"
-msgstr "see revisions"
+msgstr "засвар үзэх"
 
 #: forum/templatetags/node_tags.py:163
 msgid "mark as community wiki"
-msgstr "mark as community wiki"
+msgstr "нийтийн вики хэмээн тэмдэглэх"
 
 #: forum/templatetags/node_tags.py:167
 msgid "cancel community wiki"
-msgstr "cancel community wiki"
+msgstr "нийтийн викиг болих"
 
 #: forum/templatetags/node_tags.py:171
 msgid "convert to comment"
-msgstr "хариулт болгох"
+msgstr "сэтгэгдэл болгох"
 
 #: forum/templatetags/node_tags.py:175
 msgid "convert to question"
@@ -5788,7 +5788,7 @@ msgstr "Баталгаажуулах холбоостой захиа таний 
 
 #: forum/views/auth.py:310
 msgid "Thank you, your email is now validated."
-msgstr "Баяраллаа, таны имэйл одоо баталгаажсан."
+msgstr "Баярлалаа, таны имэйл одоо баталгаажсан."
 
 #: forum/views/auth.py:335
 msgid "New password set"
@@ -5796,7 +5796,7 @@ msgstr "Шинэ нууц үг тавигдлаа"
 
 #: forum/views/auth.py:339
 msgid "Your password was changed"
-msgstr "Таны нууц үг өөрчлөгдсөн байна"
+msgstr "Таны нууц үг өөрчлөгдсөн"
 
 #: forum/views/auth.py:375
 msgid "You removed the association with %s"
@@ -6235,7 +6235,7 @@ msgstr "тойм"
 
 #: forum/views/users.py:339
 msgid "user overview"
-msgstr "user overview"
+msgstr "хэрэглэгчийн ерөнхий мэдээлэл"
 
 #: forum/views/users.py:376
 msgid "recent activity"
