@@ -1,9 +1,4 @@
 /**
- * View the page from real domain
- */
-real_host_name = 'ask.mn';
-
-/**
  * We do not want the CSRF protection enabled for the AJAX post requests, it causes only trouble.
  * Get the csrftoken cookie and pass it to the X-CSRFToken HTTP request property.
  */
@@ -1223,11 +1218,7 @@ var notify = function() {
 
 $(document).ready( function(){
     pickedTags().init();
-	
-	if(window.location.hostname != "www."+real_host_name){
-		window.location.assign("http://www."+real_host_name);
-	}
-	
+
     $('input#bnewaccount').click(function() {
         $('#bnewaccount').disabled=true;
     });
