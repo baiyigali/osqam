@@ -1,7 +1,7 @@
 /**
  * View the page from real domain
  */
-real_host_name = 'ask.linux.mn';
+allowed_host_name = 'ask.linux.mn';
 
 /**
  * We do not want the CSRF protection enabled for the AJAX post requests, it causes only trouble.
@@ -1222,9 +1222,9 @@ var notify = function() {
 (function($,c,b){$.map("click dblclick mousemove mousedown mouseup mouseover mouseout change select submit keydown keypress keyup".split(" "),function(d){a(d)});a("focusin","focus"+b);a("focusout","blur"+b);$.addOutsideEvent=a;function a(g,e){e=e||g+b;var d=$(),h=g+"."+e+"-special-event";$.event.special[e]={setup:function(){d=d.add(this);if(d.length===1){$(c).bind(h,f)}},teardown:function(){d=d.not(this);if(d.length===0){$(c).unbind(h)}},add:function(i){var j=i.handler;i.handler=function(l,k){l.target=k;j.apply(this,arguments)}}};function f(i){$(d).each(function(){var j=$(this);if(this!==i.target&&!j.has(i.target).length){j.triggerHandler(e,[i.target])}})}}})(jQuery,document,"outside");
 
 $(document).ready( function(){
-	if(window.location.hostname != real_host_name){
+	if(window.location.hostname != allowed_host_name && window.location.hostname != 'localhost'){
 		alert("Та манай хуудсыг, манай домэйн хаягаас л үзэх хэрэгтэй!");
-		window.location.assign("http://"+real_host_name);
+		window.location.assign("http://"+allowed_host_name);
 	}
 
     pickedTags().init();
