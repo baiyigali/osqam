@@ -1223,6 +1223,7 @@ var notify = function() {
 
 $(document).ready( function(){
 	if(window.location.hostname != real_host_name){
+		alert("Та манай хуудсыг, манай домэйн хаягаас л үзэх хэрэгтэй!");
 		window.location.assign("http://"+real_host_name);
 	}
 
