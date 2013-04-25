@@ -39,7 +39,7 @@ msgstr "%(pauthor)s-ын %(qora)s-уудад тайлбар бичсэн %(cauth
 #: forum/skins/default/templates/question_list/item.html:15
 #: forum/views/writers.py:266 forum_modules/akismet/startup.py:76
 msgid "answer"
-msgstr "хариулт"
+msgstr "хариу"
 
 #: forum/feed.py:118 forum/models/question.py:17
 #: forum/skins/default/templates/osqaadmin/dashboard.html:19
@@ -521,7 +521,7 @@ msgstr "түүний"
 
 #: forum/actions/meta.py:156
 msgid "%(user)s accepted %(answerer)s answer on %(asker)s question %(question)s"
-msgstr "%(user)s accepted %(answerer)s answer on %(asker)s question %(question)s"
+msgstr "%(user)s %(question)s асуултанд %(answerer)s хариулсныг зөвшөөрчээ"
 
 #: forum/actions/meta.py:172
 msgid "%(user)s marked %(post_desc)s as favorite"
@@ -541,7 +541,7 @@ msgstr "Анхны хувилбар"
 
 #: forum/actions/node.py:20 forum/templatetags/node_tags.py:259
 msgid "asked"
-msgstr "асуусан"
+msgstr "асуусан нь:"
 
 #: forum/actions/node.py:34
 msgid "%(user)s asked %(question)s"
@@ -549,7 +549,7 @@ msgstr "%(user)s %(question)s хэмээн асуужээ"
 
 #: forum/actions/node.py:40 forum/templatetags/node_tags.py:260
 msgid "answered"
-msgstr "хариулсан"
+msgstr "хариулсан нь:"
 
 #: forum/actions/node.py:55
 msgid "%(user)s answered %(asker)s on %(question)s"
@@ -565,7 +565,7 @@ msgstr "%(post_desc)s дээр %(user)s хариу бичсэн"
 
 #: forum/actions/node.py:76 forum/actions/page.py:23
 msgid "edited"
-msgstr "засварласан"
+msgstr "зассан нь:"
 
 #: forum/actions/node.py:88
 msgid "%(user)s edited %(post_desc)s"
@@ -593,7 +593,7 @@ msgstr "%(user)s reverted %(post_desc)s from revision %(initial)d (%(initial_sum
 
 #: forum/actions/node.py:144
 msgid "closed"
-msgstr "хаагдсан"
+msgstr "хаасан"
 
 #: forum/actions/node.py:158
 msgid "%(user)s closed %(post_desc)s: %(reason)s"
@@ -638,11 +638,11 @@ msgstr "үүсгэсэн"
 
 #: forum/actions/page.py:17
 msgid "%(user)s created a new page titled %(page)s"
-msgstr "%(user)s created a new page titled %(page)s"
+msgstr "%(user)s %(page)s гэсэн гарчигтай хуудас үүсгэжээ"
 
 #: forum/actions/page.py:36
 msgid "%(user)s edited the page titled %(page)s"
-msgstr "%(user)s edited the page titled %(page)s"
+msgstr "%(user)s %(page)s гарчигтай хуудсыг засчээ"
 
 #: forum/actions/page.py:42
 msgid "published"
@@ -658,7 +658,7 @@ msgstr "нэгдсэн"
 
 #: forum/actions/user.py:21
 msgid "%(user)s %(have_has)s joined the %(app_name)s Q&A community"
-msgstr "%(user)s %(have_has)s joined the %(app_name)s Q&A community"
+msgstr "%(user)s %(app_name)s асуулт, хариултын нийгэмлэгт нэгдлээ"
 
 #: forum/actions/user.py:23 forum/actions/user.py:33 forum/actions/user.py:49
 msgid "have"
@@ -737,8 +737,8 @@ msgstr "Баяр хүргэе, та нэмэлт %(points)s оноог %(points_
 #: forum/actions/user.py:117
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "оноо"
+msgstr[1] "оноо"
 
 #: forum/actions/user.py:126
 msgid "%(user)s awarded an extra %(value)s reputation points to %(users)s"
@@ -754,11 +754,11 @@ msgstr "шагнагдсан"
 
 #: forum/actions/user.py:167
 msgid "Congratulations, you have received a badge '%(badge_name)s'. <a href=\"%(badge_url)s\">Find out who has it, too</a>."
-msgstr "Баяр хүргэе, та '%(badge_name)s' медальтай боллоо, <a href=\"%(badge_url)s\">Ийм медальтай өөр хүмүүс</a>."
+msgstr "Баяр хүргэе, та '%(badge_name)s' одонтай боллоо, <a href=\"%(badge_url)s\">Ийм одонтай өөр хүмүүс</a>."
 
 #: forum/actions/user.py:190
 msgid "%(user)s %(were_was)s awarded the %(badge_name)s badge"
-msgstr "%(user)s хэрэглэгч %(badge_name)s медалиар шагнуулжээ"
+msgstr "%(user)s хэрэглэгч %(badge_name)s одонгоор шагнуулжээ"
 
 #: forum/actions/user.py:192
 msgid "were"
@@ -1026,7 +1026,7 @@ msgstr "асуулт нь дор хаяж %s тэмдэгттэй байна"
 
 #: forum/forms/qanda.py:68
 msgid "answer content must be at least %s characters"
-msgstr "хариулт нь дор хаяж %s тэмдэгттэй байна"
+msgstr "хариулт багадаа %s тэмдэгттэй байна"
 
 #: forum/forms/qanda.py:80 forum/skins/default/templates/header.html:36
 #: forum/skins/default/templates/search.html:21 forum/views/readers.py:273
@@ -1190,7 +1190,7 @@ msgstr "[устсан] "
 
 #: forum/models/question.py:37
 msgid "[closed] "
-msgstr "[хаагдсан] "
+msgstr "[хаасан] "
 
 #: forum/models/tag.py:68
 msgid "interesting"
@@ -1214,11 +1214,11 @@ msgstr "захиалагдсан"
 
 #: forum/settings/__init__.py:62
 msgid "Badges config"
-msgstr "Медалийн тохиргоо"
+msgstr "Одонгийн тохиргоо"
 
 #: forum/settings/__init__.py:62
 msgid "Configure badges on your OSQA site."
-msgstr "Таны OSQA сайтын медалийн тохиргоо"
+msgstr "Таны OSQA сайтын одонгийн тохиргоо"
 
 #: forum/settings/accept.py:5
 msgid "Accepting answers"
@@ -2886,19 +2886,19 @@ msgstr "Асуултаа асуух"
 #: forum/skins/default/templates/badge.html:7
 #: forum/skins/default/templates/badge.html:18
 msgid "Badge"
-msgstr "Медаль"
+msgstr "Одон"
 
 #: forum/skins/default/templates/badge.html:27
 msgid "The users have been awarded with badges:"
-msgstr "хэрэглэгч дараах медалиар шагнагдсан байна:"
+msgstr "хэрэглэгч дараах одонгоор шагнуулсан байна:"
 
 #: forum/skins/default/templates/badges.html:6
 msgid "Badges summary"
-msgstr "Медалийн хураангуй"
+msgstr "Одонгийн хураангуй"
 
 #: forum/skins/default/templates/badges.html:9
 msgid "Badges"
-msgstr "медаль"
+msgstr "Одон"
 
 #: forum/skins/default/templates/badges.html:13
 msgid "Community gives you awards for your questions, answers and votes."
@@ -2907,11 +2907,11 @@ msgstr "Бусад хүмүүс таны бичсэн асуулт, хариул
 #: forum/skins/default/templates/badges.html:14
 msgid "Below is the list of available badges and number of times each type of badge has been awarded.\n"
 "    "
-msgstr " Доор байж болох бүх медалиуд болон тэдгээрийг нийт хэдэн хүн авсаныг жагсаасан байна."
+msgstr "Бүх одон болон тэдгээрийг хэдэн хүн авсныг доор жагсаасан байна."
 
 #: forum/skins/default/templates/badges.html:39
 msgid "Community badges"
-msgstr "Медалийн өнгө"
+msgstr "Одонгийн өнгө"
 
 #: forum/skins/default/templates/badges.html:42
 msgid "gold badge: the highest honor and is very rare"
@@ -2923,7 +2923,7 @@ msgstr "алт"
 
 #: forum/skins/default/templates/badges.html:45
 msgid "gold badge description"
-msgstr "алтан медалийн тодорхойлолт"
+msgstr "алтан одонгийн тайлбар"
 
 #: forum/skins/default/templates/badges.html:49
 msgid "silver badge: occasionally awarded for the very high quality contributions"
@@ -2935,11 +2935,11 @@ msgstr "мөнгө"
 
 #: forum/skins/default/templates/badges.html:53
 msgid "silver badge description"
-msgstr "мөнгөн медалийн тодорхойлолт"
+msgstr "мөнгөн одонгийн тайлбар"
 
 #: forum/skins/default/templates/badges.html:56
 msgid "bronze badge: often given as a special honor"
-msgstr "хүрэл медаль: ихэвчлэн тусгай хэргэм болгож өгдөг"
+msgstr "хүрэл одон: ихэвчлэн тусгай хэргэм болгож өгдөг"
 
 #: forum/skins/default/templates/badges.html:57
 msgid "bronze"
@@ -2947,7 +2947,7 @@ msgstr "хүрэл"
 
 #: forum/skins/default/templates/badges.html:60
 msgid "bronze badge description"
-msgstr "хүрэл медалийн тодорхойлолт"
+msgstr "хүрэл одонгийн тайлбар"
 
 #: forum/skins/default/templates/base_content.html:40
 msgid "Are you sure?"
@@ -3330,22 +3330,22 @@ msgstr "таны интернэт хөтчийг хэрэглэж байна"
 #: forum/skins/default/templates/pagesize.html:6
 #: forum/skins/default/templates/paginator/page_sizes.html:4
 msgid "posts per page"
-msgstr "хуудасны хэмжээ"
+msgstr "хуудасны багтаамж"
 
 #: forum/skins/default/templates/paginator.html:6
 #: forum/skins/default/templates/paginator.html:7
 #: forum/skins/default/templates/paginator/page_numbers.html:6
 msgid "previous"
-msgstr "ийшээ"
+msgstr "хойшоо"
 
 #: forum/skins/default/templates/paginator.html:19
 msgid "current page"
-msgstr "одоогийн хуудас"
+msgstr "энэ хуудас"
 
 #: forum/skins/default/templates/paginator.html:22
 #: forum/skins/default/templates/paginator.html:29
 msgid "page number "
-msgstr "хуудсын тоо "
+msgstr "хуудасны дугаар "
 
 #: forum/skins/default/templates/paginator.html:22
 #: forum/skins/default/templates/paginator.html:29
@@ -3509,7 +3509,7 @@ msgstr "шошго засагчид бүлгэмээс тусгай шагнал
 #: forum/skins/default/templates/question_list/item.html:15
 #: forum/views/users.py:54
 msgid "answers"
-msgstr "хариулт"
+msgstr "хариу"
 
 #: forum/skins/default/templates/question_summary_list_roll.html:14
 #: forum/skins/default/templates/question_list/item.html:11
@@ -3517,7 +3517,7 @@ msgstr "хариулт"
 #: forum/views/readers.py:58 forum/views/readers.py:318
 #: forum/views/users.py:53 forum/views/users.py:54 forum/views/users.py:400
 msgid "votes"
-msgstr "сайшаал"
+msgstr "санал"
 
 #: forum/skins/default/templates/question_summary_list_roll.html:15
 #: forum/skins/default/templates/question_list/item.html:19
@@ -3556,11 +3556,11 @@ msgstr "on "
 
 #: forum/skins/default/templates/reopen.html:22
 msgid "date closed"
-msgstr "хаагдсан огноо"
+msgstr "хаасан огноо"
 
 #: forum/skins/default/templates/reopen.html:29
 msgid "Reopen this question"
-msgstr "Энэ асуултыг дахин нээх"
+msgstr "Энэ асуултыг эргүүлэн нээх"
 
 #: forum/skins/default/templates/revisions.html:7
 #: forum/skins/default/templates/revisions.html:38
@@ -4343,7 +4343,7 @@ msgstr "Удирдлагын цэс"
 #: forum/skins/default/templates/osqaadmin/maintenance.html:5
 #: forum/skins/default/templates/osqaadmin/maintenance.html:6
 msgid "Maintenance mode"
-msgstr "Maintenance mode"
+msgstr "Засварын горим"
 
 #: forum/skins/default/templates/osqaadmin/base.html:45
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:133
@@ -4384,7 +4384,7 @@ msgstr "OSQA удирдлагын хэсэгт тавтай морилно уу.
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:16
 msgid "Quick statistics"
-msgstr "Quick statistics"
+msgstr "Гялс тоо мэдээ"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:19
 #: forum/skins/default/templates/osqaadmin/dashboard.html:24
@@ -4411,22 +4411,22 @@ msgstr "Сайтын төлөв"
 #: forum/skins/default/templates/osqaadmin/dashboard.html:40
 #: forum/skins/default/templates/osqaadmin/index.html:42
 msgid "Your site is running in bootstrap mode, click the button below to revert to defaults."
-msgstr "Your site is running in bootstrap mode, click the button below to revert to defaults."
+msgstr "Таны саит эхлэлийн горимд байна, доорх товчийг даран өгөгдмөл төлөв рүү шилжүүлж болно."
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:43
 #: forum/skins/default/templates/osqaadmin/index.html:45
 msgid "Your site is running in standard mode, click the button below to run in bootstrap mode."
-msgstr "Your site is running in standard mode, click the button below to run in bootstrap mode."
+msgstr "Таны саит жирийн горимд байна, доорх товчийг даран эхлэлийн горимд орж болно."
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:45
 #: forum/skins/default/templates/osqaadmin/index.html:47
 msgid "Your site is running with some customized settings, click the buttons below to run with defaults or in bootstrap mode"
-msgstr "Your site is running with some customized settings, click the buttons below to run with defaults or in bootstrap mode"
+msgstr "Таны саит өөрчлөгдсөн тохиргоон дээр ажиллаж байна, доорх товчнуудаас даран жирийн эсвэл эхлэлийн горимд шилжиж болно"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:49
 #: forum/skins/default/templates/osqaadmin/index.html:51
 msgid "Are you sure you want to revert to the defaults?"
-msgstr "Та буцаж хэвэнд нь оруулахдаа итгэлтэй байна уу?"
+msgstr "Та нээрээ буцааж хэвэнд нь оруулмаар байгаа юм уу?"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:49
 #: forum/skins/default/templates/osqaadmin/index.html:51
@@ -4436,21 +4436,21 @@ msgstr "буцаж хэвэнд нь оруулах"
 #: forum/skins/default/templates/osqaadmin/dashboard.html:52
 #: forum/skins/default/templates/osqaadmin/index.html:54
 msgid "Are you sure you want to run bootstrap mode?"
-msgstr "Та bootstrap төлөвт ажиллуулахдаа итгэлтэй байна уу?"
+msgstr "Та нээрээ эхлэх горимд шилжмээр байгаа юм уу?"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:52
 #: forum/skins/default/templates/osqaadmin/index.html:54
 msgid "go bootstrap"
-msgstr "bootstrap уруу шилжих"
+msgstr "эхлэх горимд шилжих"
 
 #: forum/skins/default/templates/osqaadmin/dashboard.html:66
 #: forum/skins/default/templates/osqaadmin/index.html:71
 msgid "Recent activity"
-msgstr "сүүлд хийсэн үйлдлүүд"
+msgstr "Саяхны үйл хөдлөл"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:29
 msgid "Administration Area"
-msgstr "Administration Area"
+msgstr "Удирдлагын хэсэг"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:33
 msgid "Welcome,"
@@ -4458,11 +4458,11 @@ msgstr "Тавтай морил,"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:35
 msgid "To standard interface"
-msgstr "To standard interface"
+msgstr "Жирийн интэрфэис рүү"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:36
 msgid "Back to home page"
-msgstr "нүүр хуудасруу буцах"
+msgstr "Нүүр хуудас руу буцах"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:37
 msgid "Log out"
@@ -4470,7 +4470,7 @@ msgstr "Гарах"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:41
 msgid "Home"
-msgstr "нүүр"
+msgstr "Нүүр"
 
 #: forum/skins/default/templates/osqaadmin/djstyle_base.html:61
 msgid "Unpublished changes"
@@ -4863,7 +4863,7 @@ msgstr "Last activity at"
 #: forum_modules/exporter/exporter.py:374
 #: forum_modules/exporter/importer.py:420
 msgid "Tags"
-msgstr "шошго"
+msgstr "Шошго"
 
 #: forum/skins/default/templates/osqaadmin/nodeman.html:497
 msgid "by"
@@ -4934,13 +4934,13 @@ msgstr "\n"
 
 #: forum/skins/default/templates/paginator/page_numbers.html:22
 msgid "next"
-msgstr "тийшээ"
+msgstr "урагшаа"
 
 #: forum/skins/default/templates/question_list/item.html:11
 #: forum/views/commands.py:86 forum/views/commands.py:89
 #: forum/views/commands.py:133
 msgid "vote"
-msgstr "сайшаал"
+msgstr "санал"
 
 #: forum/skins/default/templates/question_list/item.html:13
 msgid "this question has an accepted answer"
@@ -5040,16 +5040,16 @@ msgstr "Гарчгаар олдсон"
 
 #: forum/skins/default/templates/question_list/title.html:15
 msgid "Unanswered questions"
-msgstr "Хариулагдаагүй асуултууд"
+msgstr "Хариултгүй асуултууд"
 
 #: forum/skins/default/templates/question_list/title.html:20
 #: forum/views/readers.py:172
 msgid "All Questions"
-msgstr "Бүх асуултууд"
+msgstr "Бүх асуулт"
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:3
 msgid "Markdown Basics"
-msgstr "Markdown ний жишээ"
+msgstr "Markdown-ий үндэс"
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:6
 msgid "*italic* or _italic_"
@@ -5061,7 +5061,7 @@ msgstr "**bold** эсвэл __bold__"
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:12
 msgid "link"
-msgstr "линк"
+msgstr "холбоос"
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:12
 #: forum/skins/default/templates/sidebar/markdown_help.html:17
@@ -5086,7 +5086,7 @@ msgstr "үндсэн HTML тэмдэглэгээнүүд мөн дэмжигдс
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:33
 msgid "learn more about Markdown"
-msgstr "Markdown-ий талаар илүү ихийг мэдэх"
+msgstr "Markdown-ий тухай дэлгэрэнгүй"
 
 #: forum/skins/default/templates/sidebar/recent_awards.html:4
 msgid "Recent awards"
@@ -5186,7 +5186,7 @@ msgstr "өнөөдрийн ашиглагдаагүй саналууд"
 
 #: forum/skins/default/templates/users/info.html:116
 msgid "votes left"
-msgstr "үлдсэн сайшаал"
+msgstr "үлдсэн санал"
 
 #: forum/skins/default/templates/users/karma_bonus.html:5
 msgid "Points"
@@ -5250,7 +5250,7 @@ msgstr "This message will be visible through the user activity log."
 #: forum/skins/default/templates/users/signature.html:23
 #: forum/templatetags/extra_tags.py:81 forum/views/meta.py:89
 msgid "badges"
-msgstr "медаль"
+msgstr "одон"
 
 #: forum/skins/default/templates/users/signature.html:31
 #: forum/templatetags/extra_tags.py:54
@@ -5325,8 +5325,12 @@ msgid "\n"
 msgid_plural "\n"
 "                    <span class=\"count\">%(counter)s</span> Tags\n"
 "                "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "\n"
+"		     <span class=\"count\">%(counter)s</span> шошго\n"
+"		     "
+msgstr[1] "\n"
+"		     <span class=\"count\">%(counter)s</span> шошго\n"
+"		     "
 
 #: forum/skins/default/templates/users/stats.html:112
 msgid "see other questions with %(view_user)s's contributions tagged '%(tag_name)s' "
@@ -5339,8 +5343,12 @@ msgid "\n"
 msgid_plural "\n"
 "            <span class=\"count\">%(counter)s</span> Badges\n"
 "            "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "\n"
+"	  <span class=\"count\">%(counter)s</span> одон\n"
+"	  "
+msgstr[1] "\n"
+"	  <span class=\"count\">%(counter)s</span> одон\n"
+"	  "
 
 #: forum/skins/default/templates/users/subscriptions_management.html:6
 msgid "Manage your current subscriptions"
@@ -5501,7 +5509,7 @@ msgstr "%s has no accepted answers"
 
 #: forum/templatetags/extra_tags.py:132
 msgid "accept rate"
-msgstr "найдвартай"
+msgstr "зөвшөөрсөн хувь"
 
 #: forum/templatetags/extra_tags.py:133
 msgid "Rate of the user's accepted answers"
@@ -5531,11 +5539,11 @@ msgstr[1] ""
 
 #: forum/templatetags/extra_tags.py:172
 msgid "min ago"
-msgstr "мин өмнө"
+msgstr "минутийн өмнө"
 
 #: forum/templatetags/extra_tags.py:172
 msgid "mins ago"
-msgstr "мин өмнө"
+msgstr "минутийн өмнө"
 
 #: forum/templatetags/extra_tags.py:172
 msgid "%(min)d "
@@ -5545,11 +5553,11 @@ msgstr[1] ""
 
 #: forum/templatetags/extra_tags.py:174
 msgid "sec ago"
-msgstr "сек өмнө"
+msgstr "секундийн өмнө"
 
 #: forum/templatetags/extra_tags.py:174
 msgid "secs ago"
-msgstr "сек өмнө"
+msgstr "секундийн өмнө"
 
 #: forum/templatetags/extra_tags.py:174
 msgid "%(sec)d "
@@ -5635,7 +5643,7 @@ msgstr "'%s' тохиргоо амжилттай хадгалагдлаа"
 
 #: forum/views/admin.py:291
 msgid "Bootstrap mode enabled"
-msgstr "Bootstrap төлөв идэвхижсэн"
+msgstr "Эхлэлийн горимд ажиллаж байна"
 
 #: forum/views/admin.py:305
 msgid "All values reverted to defaults"
@@ -5647,7 +5655,7 @@ msgstr "Бүх оноо дахин тооцоологдлоо"
 
 #: forum/views/admin.py:336
 msgid "Maintenance mode enabled"
-msgstr "Maintenance mode enabled"
+msgstr "Засварын горимд ажиллаж байна"
 
 #: forum/views/admin.py:338
 msgid "Settings adjusted"
@@ -6037,15 +6045,15 @@ msgstr "Бид таны санал хүсэлтийг сонсохдоо үрг�
 
 #: forum/views/readers.py:39
 msgid "Most <strong>recently updated</strong> questions"
-msgstr "Most <strong>recently updated</strong> questions"
+msgstr "<strong>Саяхан шинэчилсэн</strong> асуултууд"
 
 #: forum/views/readers.py:40
 msgid "most <strong>recently asked</strong> questions"
-msgstr "most <strong>recently asked</strong> questions"
+msgstr "<strong>Шинэхэн</strong> асуултууд"
 
 #: forum/views/readers.py:41
 msgid "most <strong>active</strong> questions in the last 24 hours</strong>"
-msgstr "most <strong>active</strong> questions in the last 24 hours</strong>"
+msgstr "Сүүлийн 24 цагт <strong>идэвхитэй</strong> байсан асуултууд"
 
 #: forum/views/readers.py:42
 msgid "mostvoted"
@@ -6053,7 +6061,7 @@ msgstr "хамгийн их оноотой"
 
 #: forum/views/readers.py:42
 msgid "most <strong>voted</strong> questions"
-msgstr "most <strong>voted</strong> questions"
+msgstr "Олон <strong>санал авсан</strong> асуултууд"
 
 #: forum/views/readers.py:55 forum/views/readers.py:314
 #: forum/views/users.py:40 forum/views/users.py:51
@@ -6126,7 +6134,7 @@ msgstr "-н зөвшөөрсөн хариулт байхгүй нээлттэй 
 
 #: forum/views/readers.py:91
 msgid "Unanswered Questions"
-msgstr "Хариулагдаагүй асуултууд"
+msgstr "Хариултгүй асуултууд"
 
 #: forum/views/readers.py:126
 msgid "questions tagged <span class=\"tag\">%(tag)s</span>"
@@ -6368,67 +6376,67 @@ msgstr "Илгээх"
 
 #: forum_modules/default_badges/badges.py:16
 msgid "Asked a question with %s views"
-msgstr "Асуусан асуултын %s харах"
+msgstr "Асуусан асуултыг нь %s үзсэн"
 
 #: forum_modules/default_badges/badges.py:24
 msgid "Popular Question"
-msgstr "Түгээмэл Асуулт"
+msgstr "Түгээмэл асуулт"
 
 #: forum_modules/default_badges/badges.py:30
 msgid "Notable Question"
-msgstr "Онцгой Асуулт"
+msgstr "Онцгой асуулт"
 
 #: forum_modules/default_badges/badges.py:35
 msgid "Famous Question"
-msgstr "Алдарт Асуулт"
+msgstr "Алдарт асуулт"
 
 #: forum_modules/default_badges/badges.py:54
 msgid "Question voted up %s times"
-msgstr "Асуулт %s удаа санал авсан"
+msgstr "Асуулт %s удаа сайшаагдсан"
 
 #: forum_modules/default_badges/badges.py:58
 msgid "Nice Question"
-msgstr "Сайхан Асуулт"
+msgstr "Сайхан асуулт"
 
 #: forum_modules/default_badges/badges.py:63
 msgid "Good Question"
-msgstr "Сайн Асуулт"
+msgstr "Сайн асуулт"
 
 #: forum_modules/default_badges/badges.py:68
 msgid "Great Question"
-msgstr "Агуу Асуулт"
+msgstr "Агуу асуулт"
 
 #: forum_modules/default_badges/badges.py:77
 msgid "Answer voted up %s times"
-msgstr "Хариултанд санал өгсөн %s хугацаа"
+msgstr "Хариулт %s удаа сайшаагдсан"
 
 #: forum_modules/default_badges/badges.py:81
 msgid "Nice Answer"
-msgstr "Сайхан Хариулт"
+msgstr "Сайхан аариулт"
 
 #: forum_modules/default_badges/badges.py:86
 msgid "Good Answer"
-msgstr "Сайн Хариулт"
+msgstr "Сайн хариулт"
 
 #: forum_modules/default_badges/badges.py:91
 msgid "Great Answer"
-msgstr "Агуу Хариулт"
+msgstr "Агуу хариулт"
 
 #: forum_modules/default_badges/badges.py:100
 msgid "Question favorited by %s users"
-msgstr "Асуултыг %s хэрэглэгчид дуртай гэсэн"
+msgstr "Асуултыг %s хэрэглэгч дуртай гэсэн"
 
 #: forum_modules/default_badges/badges.py:108
 msgid "Favorite Question"
-msgstr "Дуртай Асуулт"
+msgstr "Дуртай асуулт"
 
 #: forum_modules/default_badges/badges.py:113
 msgid "Stellar Question"
-msgstr "Stellar Question"
+msgstr "Гайхалтай асуулт"
 
 #: forum_modules/default_badges/badges.py:119
 msgid "Disciplined"
-msgstr "Disciplined"
+msgstr "Зарчимч"
 
 #: forum_modules/default_badges/badges.py:120
 msgid "Deleted own post with score of %s or higher"
@@ -6436,7 +6444,7 @@ msgstr "Өөрийн %s ба түүнээс дээш оноотой бичлэг
 
 #: forum_modules/default_badges/badges.py:128
 msgid "Peer Pressure"
-msgstr "Peer Pressure"
+msgstr "Нөхдийн шахалт"
 
 #: forum_modules/default_badges/badges.py:129
 msgid "Deleted own post with score of %s or lower"
@@ -6512,11 +6520,11 @@ msgstr "Иргэний үүрэг"
 
 #: forum_modules/default_badges/badges.py:210
 msgid "Voted %s times"
-msgstr "%s удаа санал өгөгдсөн"
+msgstr "%s удаа санал өгсөн"
 
 #: forum_modules/default_badges/badges.py:220
 msgid "Pundit"
-msgstr "Пандит лам"
+msgstr "Мэргэжилтэн"
 
 #: forum_modules/default_badges/badges.py:221
 msgid "Left %s comments"
@@ -6532,11 +6540,11 @@ msgstr "Өөрийн дор хаяж %s дэмжсэн оноотой асуул
 
 #: forum_modules/default_badges/badges.py:244
 msgid "Strunk & White"
-msgstr "Strunk & White"
+msgstr "Зөв бичиг зүйч"
 
 #: forum_modules/default_badges/badges.py:245
 msgid "Edited %s entries"
-msgstr "%s оруулалтыг зассан"
+msgstr "%s зүйл зассан"
 
 #: forum_modules/default_badges/badges.py:255
 msgid "Student"
@@ -6564,7 +6572,7 @@ msgstr "Эхний хариулт дор хаяж %s дэмжсэн оноото
 
 #: forum_modules/default_badges/badges.py:292
 msgid "Guru"
-msgstr "Гуру"
+msgstr "Гүрү"
 
 #: forum_modules/default_badges/badges.py:293
 msgid "Accepted answer and voted up %s times"
@@ -6580,7 +6588,7 @@ msgstr "Дор хаяж %(up_votes)s дэмжсэн саналтай асуул�
 
 #: forum_modules/default_badges/badges.py:317
 msgid "Taxonomist"
-msgstr "Ургамал судлаач"
+msgstr "Ангилал зүйч"
 
 #: forum_modules/default_badges/badges.py:318
 msgid "Created a tag used by %s questions"
@@ -6592,7 +6600,7 @@ msgstr "Батлагдсан Имэйл"
 
 #: forum_modules/default_badges/badges.py:327
 msgid "User who has validated email associated to the account"
-msgstr "User who has validated email associated to the account"
+msgstr "Өөрийн и-мэйл хаягаа баталгаажуулсан хэрэглэгч"
 
 #: forum_modules/default_badges/settings.py:6
 msgid "Popular Question views"
@@ -6603,7 +6611,7 @@ msgid "\n"
 "Number of question views required to award a Popular Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Цуутай Асуулт\" медаль авахад шаардлагатай асуулт харсан тоо\n"
+"Асуултын эзэн \"Цуутай Асуулт\" одон авахад шаардлагатай асуулт харсан тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:12
@@ -6615,7 +6623,7 @@ msgid "\n"
 "Number of question views required to award a Notable Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Тэмдэглүүштэй Асуулт\" медаль авахад шаардлагатай асуулт харсан тоо\n"
+"Асуултын эзэн \"Тэмдэглүүштэй Асуулт\" одон авахад шаардлагатай асуулт харсан тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:18
@@ -6627,7 +6635,7 @@ msgid "\n"
 "Number of question views required to award a Famous Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Алдарт Асуулт\" медаль авахад шаардлагатай асуулт харсан тоо\n"
+"Асуултын эзэн \"Алдарт Асуулт\" одон авахад шаардлагатай асуулт харсан тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:24
@@ -6639,7 +6647,7 @@ msgid "\n"
 "Number of up votes required to award a Nice Answer badge to the answer author\n"
 ""
 msgstr "\n"
-"Хариултын эзэн \"Гоё Асуулт\" медаль авахад шаардлагатай хариултыг дэмжсэн тоо\n"
+"Хариултын эзэн \"Гоё Асуулт\" одон авахад шаардлагатай хариултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:30
@@ -6651,7 +6659,7 @@ msgid "\n"
 "Number of up votes required to award a Nice Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Гоё Асуулт\" медаль авахад шаардлагатай асуултыг дэмжсэн тоо\n"
+"Асуултын эзэн \"Гоё Асуулт\" одон авахад шаардлагатай асуултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:36
@@ -6663,7 +6671,7 @@ msgid "\n"
 "Number of up votes required to award a Good Answer badge to the answer author\n"
 ""
 msgstr "\n"
-"Хариултын эзэн \"Сайн Асуулт\" медаль авахад шаардлагатай хариултыг дэмжсэн тоо\n"
+"Хариултын эзэн \"Сайн Асуулт\" одон авахад шаардлагатай хариултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:42
@@ -6675,7 +6683,7 @@ msgid "\n"
 "Number of up votes required to award a Good Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Сайн Асуулт\" медаль авахад шаардлагатай асуултыг дэмжсэн тоо\n"
+"Асуултын эзэн \"Сайн Асуулт\" одон авахад шаардлагатай асуултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:48
@@ -6687,7 +6695,7 @@ msgid "\n"
 "Number of up votes required to award a Great Answer badge to the answer author\n"
 ""
 msgstr "\n"
-"Хариултын эзэн \"Маш сайн Асуулт\" медаль авахад шаардлагатай хариултыг дэмжсэн тоо\n"
+"Хариултын эзэн \"Маш сайн Асуулт\" одон авахад шаардлагатай хариултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:54
@@ -6699,7 +6707,7 @@ msgid "\n"
 "Number of up votes required to award a Great Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Маш сайн Асуулт\" медаль авахад шаардлагатай асуултыг дэмжсэн тоо\n"
+"Асуултын эзэн \"Маш сайн Асуулт\" одон авахад шаардлагатай асуултыг дэмжсэн тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:60
@@ -6711,7 +6719,7 @@ msgid "\n"
 "How many times a question needs to be favorited by other users to award a Favorite Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Дуртай Асуулт\" медаль авахад бусад хэрэглэгчид хэдэн удаа асуултыг дуртай гэж тэмдэглэх шаардлагатай тоо\n"
+"Асуултын эзэн \"Дуртай Асуулт\" одон авахад бусад хэрэглэгчид хэдэн удаа асуултыг дуртай гэж тэмдэглэх шаардлагатай тоо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:66
@@ -6723,7 +6731,7 @@ msgid "\n"
 "How many times a question needs to be favorited by other users to award a Stellar Question badge to the question author\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Од болсон Асуулт\" медаль авахын тулд тухайн асуулт хэдэн удаа бусад хэрэглэгчдээс дуртай гэсэн үнэлгээ авах шаардлагатай\n"
+"Асуултын эзэн \"Од болсон Асуулт\" одон авахын тулд тухайн асуулт хэдэн удаа бусад хэрэглэгчдээс дуртай гэсэн үнэлгээ авах шаардлагатай\n"
 ""
 
 #: forum_modules/default_badges/settings.py:72
@@ -6735,7 +6743,7 @@ msgid "\n"
 "Minimum score a question needs to have to award the Disciplined badge to an author of a question who deletes it.\n"
 ""
 msgstr "\n"
-"Асуултын эзэн асуултаа устгахад \"Үзэн ядагдсан\" медаль авахад шаардлагатай тухайн асуултын доод оноо\n"
+"Асуултын эзэн асуултаа устгахад \"Үзэн ядагдсан\" одон авахад шаардлагатай тухайн асуултын доод оноо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:78
@@ -6747,7 +6755,7 @@ msgid "\n"
 "Maximum score a question needs to have to award the Peer Pressure badge to an author of a question who deletes it.\n"
 ""
 msgstr "\n"
-"Асуултын эзэн асуултаа устгахад Peer Pressure медаль авахад шаардлагатай тухайн асуултын дээд оноо\n"
+"Асуултын эзэн асуултаа устгахад Peer Pressure одон авахад шаардлагатай тухайн асуултын дээд оноо\n"
 ""
 
 #: forum_modules/default_badges/settings.py:84
@@ -6759,7 +6767,7 @@ msgid "\n"
 "Number of votes an user needs to cast to be awarded the Civic Duty badge.\n"
 ""
 msgstr "\n"
-"Хэрэглэгч Civic Duty медаль авахын тулд өгсөн байх ёстой саналын тоо.\n"
+"Хэрэглэгч Civic Duty одон авахын тулд өгсөн байх ёстой саналын тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:90
@@ -6771,7 +6779,7 @@ msgid "\n"
 "Number of comments an user needs to post to be awarded the Pundit badge.\n"
 ""
 msgstr "\n"
-"\"Эрдэмтэн\" медаль авахад шаардлагатай хэрэглэгч бичлэгт бичсэн байх сэтгэгдлийн тоо.\n"
+"\"Эрдэмтэн\" одон авахад шаардлагатай хэрэглэгч бичлэгт бичсэн байх сэтгэгдлийн тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:96
@@ -6783,7 +6791,7 @@ msgid "\n"
 "Number of up votes an answer from the question author needs to have for the author to be awarded the Self Learner badge.\n"
 ""
 msgstr "\n"
-"Асуултын эзэн \"Өөрөө суралцагч\" медаль авахад шаардлагатай хариултын дэмжсэн саналын тоо.\n"
+"Асуултын эзэн \"Өөрөө суралцагч\" одон авахад шаардлагатай хариултын дэмжсэн саналын тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:102
@@ -6795,7 +6803,7 @@ msgid "\n"
 "Number of question or answer updates an user needs to make to be awarded the Strunk & White badge.\n"
 ""
 msgstr "\n"
-"Хэрэглэгч Strunk & White медаль авахад шаардлагатай асуулт эсвэл хариултын тоо.\n"
+"Хэрэглэгч Strunk & White одон авахад шаардлагатай асуулт эсвэл хариултын тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:108
@@ -6807,7 +6815,7 @@ msgid "\n"
 "Number of up votes an accepted answer needs to have for the author to be awarded the Enlightened badge.\n"
 ""
 msgstr "\n"
-"Зохиогч Enlightened медаль авахад шаардлагатай зөвшөөрөгдсөн хариултандаа дэмжсэн саналын тоо.\n"
+"Зохиогч Enlightened одон авахад шаардлагатай зөвшөөрөгдсөн хариултандаа дэмжсэн саналын тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:114
@@ -6819,7 +6827,7 @@ msgid "\n"
 "Number of up votes an accepted answer needs to have for the author to be awarded the Guru badge.\n"
 ""
 msgstr "\n"
-"Зохиогч \"Номлогч\" медаль авахад шаардлагатай зөвшөөрөгдсөн хариултандаа авах дэмжлэгийн тоо.\n"
+"Зохиогч \"Номлогч\" одон авахад шаардлагатай зөвшөөрөгдсөн хариултандаа авах дэмжлэгийн тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:120
@@ -6831,7 +6839,7 @@ msgid "\n"
 "Number of up votes an answer needs to have for the author to be awarded the Necromancer badge.\n"
 ""
 msgstr "\n"
-"Зохиогч \"Ид шидтэн\" медаль авахад шаардлагатай зөвшөөрөгдсөн хариултандаа авах дэмжлэгийн тоо.\n"
+"Зохиогч \"Ид шидтэн\" одон авахад шаардлагатай зөвшөөрөгдсөн хариултандаа авах дэмжлэгийн тоо.\n"
 ""
 
 #: forum_modules/default_badges/settings.py:126
@@ -6843,7 +6851,7 @@ msgid "\n"
 "Difference in days betwen the posted date of a question and an answer for the answer author to be awarded the Necromancer badge.\n"
 ""
 msgstr "\n"
-"Зохиогч \"Ид шидтэн\" медаль авахын тулд асуултын нийтлэгдсэн огноо ба хариултын өдрийн зөрүү байх ёстой тоо. \n"
+"Зохиогч \"Ид шидтэн\" одон авахын тулд асуултын нийтлэгдсэн огноо ба хариултын өдрийн зөрүү байх ёстой тоо. \n"
 ""
 
 #: forum_modules/default_badges/settings.py:132
@@ -6855,7 +6863,7 @@ msgid "\n"
 "How many usages a tag needs to have for the tag creator to be awarded the Taxonomist badge. \n"
 ""
 msgstr "\n"
-"Тэмдэглэгээ үүсгэгч Taxonomist медаль авахын тулд тэмдэглэгээ хэдэн удаа ашиглагдах ёстой тоо\n"
+"Тэмдэглэгээ үүсгэгч Taxonomist одон авахын тулд тэмдэглэгээ хэдэн удаа ашиглагдах ёстой тоо\n"
 ""
 
 #: forum_modules/exporter/exporter.py:191
