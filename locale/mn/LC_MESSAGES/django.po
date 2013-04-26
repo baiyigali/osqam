@@ -545,7 +545,7 @@ msgstr "асуусан нь:"
 
 #: forum/actions/node.py:34
 msgid "%(user)s asked %(question)s"
-msgstr "%(user)s %(question)s хэмээн асуужээ"
+msgstr "%(user)s %(question)s хэмээн асуусан"
 
 #: forum/actions/node.py:40 forum/templatetags/node_tags.py:260
 msgid "answered"
@@ -553,11 +553,11 @@ msgstr "хариулсан нь:"
 
 #: forum/actions/node.py:55
 msgid "%(user)s answered %(asker)s on %(question)s"
-msgstr "%(asker)s-н %(question)s асуултад %(user)s хариулжээ"
+msgstr "%(asker)s-н %(question)s асуултад %(user)s хариулсан"
 
 #: forum/actions/node.py:62
 msgid "commented"
-msgstr "сэтгэгдэлтэй"
+msgstr "сэтгэгдэл бичсэн"
 
 #: forum/actions/node.py:70
 msgid "%(user)s commented on %(post_desc)s"
@@ -610,11 +610,11 @@ msgstr "%(user)s converted an answer to %(question)s into a comment"
 
 #: forum/actions/node.py:201
 msgid "%(user)s converted comment on %(question)s into an answer"
-msgstr "%(user)s converted comment on %(question)s into an answer"
+msgstr "%(user)s %(question)s асуултын сэтгэгдлийг хариулт болгосон"
 
 #: forum/actions/node.py:225
 msgid "%(user)s converted comment on %(question)s to a new question"
-msgstr "%(user)s converted comment on %(question)s to a new question"
+msgstr "%(user)s %(question)s асуултын сэтгэгдлийг шинэ асуулт болгосон"
 
 #: forum/actions/node.py:231
 msgid "converted to question"
@@ -622,15 +622,15 @@ msgstr "асуулт болгож хувиргасан"
 
 #: forum/actions/node.py:256
 msgid "%(user)s converted an answer to %(question)s into a separate question"
-msgstr "%(user)s converted an answer to %(question)s into a separate question"
+msgstr "%(user)s %(question)s асуултын нэгэн хариуг тусдаа асуулт болгосон"
 
 #: forum/actions/node.py:262
 msgid "wikified"
-msgstr "wiki-д оруулсан"
+msgstr "викижүүлсэн"
 
 #: forum/actions/node.py:274
 msgid "%(user)s marked %(node)s as community wiki."
-msgstr "%(user)s marked %(node)s as community wiki."
+msgstr "%(user)s %(node)s зүйлийг нийтийн вики болгон тэмдэглэсэн."
 
 #: forum/actions/page.py:6
 msgid "created"
@@ -638,11 +638,11 @@ msgstr "үүсгэсэн"
 
 #: forum/actions/page.py:17
 msgid "%(user)s created a new page titled %(page)s"
-msgstr "%(user)s %(page)s гэсэн гарчигтай хуудас үүсгэжээ"
+msgstr "%(user)s %(page)s гэсэн гарчигтай хуудас үүсгэсэн"
 
 #: forum/actions/page.py:36
 msgid "%(user)s edited the page titled %(page)s"
-msgstr "%(user)s %(page)s гарчигтай хуудсыг засчээ"
+msgstr "%(user)s %(page)s гарчигтай хуудсыг зассан"
 
 #: forum/actions/page.py:42
 msgid "published"
@@ -650,7 +650,7 @@ msgstr "нийтэлсэн"
 
 #: forum/actions/page.py:55
 msgid "%(user)s published a new page titled %(page)s"
-msgstr "%(page)s гарчигтай шинэ хуудсыг - %(user)s д "
+msgstr "%(user)s %(page)s гэсэн гарчигтай шинэ хуудас нийтэлсэн"
 
 #: forum/actions/user.py:11
 msgid "joined"
@@ -674,7 +674,7 @@ msgstr "нэвтэрсэн"
 
 #: forum/actions/user.py:31
 msgid "%(user)s %(have_has)s logged in"
-msgstr "%(user)s нэвтрэн оржээ"
+msgstr "%(user)s нэвтрэн орсон"
 
 #: forum/actions/user.py:37
 msgid "validated e-mail"
@@ -758,7 +758,7 @@ msgstr "Баяр хүргэе, та '%(badge_name)s' одонтай боллоо
 
 #: forum/actions/user.py:190
 msgid "%(user)s %(were_was)s awarded the %(badge_name)s badge"
-msgstr "%(user)s хэрэглэгч %(badge_name)s одонгоор шагнуулжээ"
+msgstr "%(user)s хэрэглэгч %(badge_name)s одонгоор шагнуулсан"
 
 #: forum/actions/user.py:192
 msgid "were"
@@ -2710,15 +2710,15 @@ msgstr "уучлаарай, системийн алдаа"
 
 #: forum/skins/default/templates/500.html:24
 msgid "system error log is recorded, error will be fixed as soon as possible"
-msgstr "системийн алдаа тэмдэглэгдсэн болохоор алдаа удахгүй засагдах болно"
+msgstr "системийн алдааг тэмдэглэсэн, алдааг аль болох удахгүй засах болно"
 
 #: forum/skins/default/templates/500.html:25
 msgid "please report the error to the site administrators if you wish"
-msgstr "Хэрвээ та хүсвэл энэ алдааг сайтын зохицуулагчид мэдэгдэнэ үү"
+msgstr "хэрэв хүсвэл энэ алдааг сайтын зохицуулагчид мэдэгдэнэ үү"
 
 #: forum/skins/default/templates/500.html:28
 msgid "see latest questions"
-msgstr "сүүлийн үеийн асуултуудыг харах"
+msgstr "шинэхэн асуултуудыг харах"
 
 #: forum/skins/default/templates/500.html:29
 msgid "see tags"
@@ -2756,14 +2756,14 @@ msgstr "хариут засах"
 #: forum/skins/default/templates/question_edit.html:20
 #: forum/skins/default/templates/question_edit.html:23
 msgid "hide preview"
-msgstr "урьдчилж үзэхийг нуух"
+msgstr "урьтан үзэхээ болих"
 
 #: forum/skins/default/templates/answer_edit.html:23
 #: forum/skins/default/templates/ask.html:30
 #: forum/skins/default/templates/question.html:50
 #: forum/skins/default/templates/question_edit.html:23
 msgid "show preview"
-msgstr "урьдчилж үзэх"
+msgstr "урьтан үзэх"
 
 #: forum/skins/default/templates/answer_edit.html:63
 #: forum/skins/default/templates/question_edit.html:92
@@ -2788,20 +2788,20 @@ msgstr "хяналтыг сонгох"
 #: forum/skins/default/templates/question.html:233
 #: forum/skins/default/templates/question_edit.html:119
 msgid "Toggle the real time Markdown editor preview"
-msgstr "Бодит цагийн Markdown засварлагч урьдчилан харахыг чагтлах"
+msgstr "Маркдаун засварлагчийн үр дүнг урьтан үзэх боломжийг сэлгэх"
 
 #: forum/skins/default/templates/answer_edit.html:79
 #: forum/skins/default/templates/ask.html:131
 #: forum/skins/default/templates/question.html:234
 #: forum/skins/default/templates/question_edit.html:119
 msgid "toggle preview"
-msgstr "урьдчилсан үзлэгийг чагтлах"
+msgstr "урьтан үзэхийг сэлгэх"
 
 #: forum/skins/default/templates/answer_edit.html:103
 #: forum/skins/default/templates/question_edit.html:155
 #: forum/skins/default/templates/question_retag.html:62
 msgid "Save edit"
-msgstr "Өөрчлөлтийг хадгалах"
+msgstr "Зассаныг хадгал"
 
 #: forum/skins/default/templates/answer_edit.html:104
 #: forum/skins/default/templates/base_content.html:44
@@ -2890,7 +2890,7 @@ msgstr "Одон"
 
 #: forum/skins/default/templates/badge.html:27
 msgid "The users have been awarded with badges:"
-msgstr "хэрэглэгч дараах одонгоор шагнуулсан байна:"
+msgstr "хэрэглэгч энэ одонгоор шагнуулсан:"
 
 #: forum/skins/default/templates/badges.html:6
 msgid "Badges summary"
@@ -2971,7 +2971,7 @@ msgstr "хаах"
 
 #: forum/skins/default/templates/base_content.html:46
 msgid "Ok"
-msgstr "Ок"
+msgstr "За"
 
 #: forum/skins/default/templates/base_content.html:48
 #: forum/templatetags/node_tags.py:189
@@ -3056,7 +3056,7 @@ msgstr "Илгээснийг буцаах"
 
 #: forum/skins/default/templates/header.html:8
 msgid "back to home page"
-msgstr "нүүр хуудасруу буцах"
+msgstr "нүүр хуудас руу буцах"
 
 #: forum/skins/default/templates/header.html:20
 msgid "ask a question"
@@ -3481,7 +3481,7 @@ msgstr "Асуултыг засах"
 
 #: forum/skins/default/templates/question_edit_tips.html:5
 msgid "Title Tips"
-msgstr "Гарчиг сонгоход анхаарах"
+msgstr "Гарчиг сонгох зөвлөмж"
 
 #: forum/skins/default/templates/question_edit_tips.html:17
 msgid "What Are Tags"
@@ -3494,11 +3494,11 @@ msgstr "Шошгыг өөрчлөх"
 
 #: forum/skins/default/templates/question_retag.html:71
 msgid "Why use and modify tags?"
-msgstr "Ягаад шошго хэрэглэдэг болон өөрчилдөг вэ?"
+msgstr "Яагаад шошго хэрэглэх, өөрчлөх хэрэгтэй гэж?"
 
 #: forum/skins/default/templates/question_retag.html:74
 msgid "tags help us keep Questions organized"
-msgstr "шошго нь асуултуудыг эмхэлж цэгцлэхэд бидэнд тусалдаг"
+msgstr "шошго асуултын санг эмхэлж цэгцлэхэд тусалдаг"
 
 #: forum/skins/default/templates/question_retag.html:77
 msgid "tag editors receive special awards from the community"
@@ -3897,7 +3897,7 @@ msgid "\n"
 "    If you like this answer you can award %(awarded_user)s with reputation points.\n"
 "    "
 msgstr "\n"
-"    If you like this answer you can award %(awarded_user)s with reputation points.\n"
+"    Энэ асуулт таалагдаж байвал %(awarded_user)s-г нэр хүндийн оноогоор шагнаж болно.\n"
 "    "
 
 #: forum/skins/default/templates/node/award_points.html:10
@@ -3905,16 +3905,16 @@ msgid "\n"
 "    Use the slider below or the input field to choose the amount of points you would like to give.\n"
 "    "
 msgstr "\n"
-"    Use the slider below or the input field to choose the amount of points you would like to give.\n"
+"    Доорх оруулгын талбар эсвэл гулгуурыг ашиглаж хэдэн оноо өгөхөө сонгоно уу\n"
 "    "
 
 #: forum/skins/default/templates/node/award_points.html:17
 msgid "Points:"
-msgstr "Оноонууд:"
+msgstr "Оноо:"
 
 #: forum/skins/default/templates/node/award_points.html:31
 msgid "Your karma points will be below the minimum reputation to comment. Are you sure you want to award points?"
-msgstr "Your karma points will be below the minimum reputation to comment. Are you sure you want to award points?"
+msgstr "Таны каарма оноо сэтгэгдэл бичих доод нэр хүндээс доогуур болох юм байна. Оноогоор шагнах хэвээр үү?"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:14
 msgid "characters needed"
@@ -3926,7 +3926,7 @@ msgstr "тэмдэгт үлдлээ"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:17
 msgid " comment"
-msgstr "сэтгэгдэл"
+msgstr "сэтгэгдэл бичих"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:18
 msgid " cancel"
@@ -3939,12 +3939,12 @@ msgstr "Бэлдсэн сэтгэгдэл ашиглах"
 #: forum/skins/default/templates/node/comment_skeleton.html:41
 #: forum/skins/default/templates/node/comments.html:19
 msgid "Edit comment"
-msgstr "сэтгэгдэл засах"
+msgstr "Сэтгэгдлийг засах"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:43
 #: forum/skins/default/templates/node/comments.html:23
 msgid "Delete comment"
-msgstr "сэтгэгдэл устгах"
+msgstr "Сэтгэгдлийг устга"
 
 #: forum/skins/default/templates/node/comment_skeleton.html:45
 #: forum/skins/default/templates/node/comments.html:27
@@ -3957,11 +3957,11 @@ msgstr "саяхан"
 
 #: forum/skins/default/templates/node/comments.html:15
 msgid "I like this comment (click again to cancel)"
-msgstr "Надад энэ сэтгэгдэл таалагдсан (цуцлахын тулд дахин дарна уу)"
+msgstr "Энэ сэтгэгдэл таалагдлаа (цуцлах бол дахин дар)"
 
 #: forum/skins/default/templates/node/comments.html:29
 msgid "Convert comment to question"
-msgstr "Комментийг асуулт болгох"
+msgstr "Сэтгэгдлийг асуулт болгох"
 
 #: forum/skins/default/templates/node/comments.html:47
 msgid "showing %(showing)s of %(total)s"
@@ -3977,7 +3977,7 @@ msgstr "шинэ сэтгэгдэл бичих"
 
 #: forum/skins/default/templates/node/convert_to_comment.html:4
 msgid "Place the comment under:"
-msgstr "Place the comment under:"
+msgstr "Сэтгэгдлийг үүний дор байрлуул:"
 
 #: forum/skins/default/templates/node/convert_to_question.html:3
 #: forum/skins/default/templates/node/convert_to_question.html:4
@@ -4002,7 +4002,7 @@ msgstr "холбоос"
 
 #: forum/skins/default/templates/node/post_controls.html:14
 msgid "more"
-msgstr "цааш"
+msgstr "өөр"
 
 #: forum/skins/default/templates/node/report.html:3
 msgid "Please select a reason bellow or use the text box to input your own reason."
@@ -5513,7 +5513,7 @@ msgstr "зөвшөөрсөн хувь"
 
 #: forum/templatetags/extra_tags.py:133
 msgid "Rate of the user's accepted answers"
-msgstr "Rate of the user's accepted answers"
+msgstr "Хэрэглэгчийн зөвшөөрсөн хариултын хувь"
 
 #: forum/templatetags/extra_tags.py:166
 msgid "2 days ago"
@@ -5575,11 +5575,11 @@ msgstr "хариултын холбоос"
 
 #: forum/templatetags/node_tags.py:109
 msgid "award points"
-msgstr "шагналын оноо"
+msgstr "оноо шагнах"
 
 #: forum/templatetags/node_tags.py:110
 msgid "award points to %s"
-msgstr "%s -н шагналын оноо"
+msgstr "%s-г оноогоор шагнах"
 
 #: forum/templatetags/node_tags.py:120
 msgid "retag"
@@ -5587,7 +5587,7 @@ msgstr "дахин шошголох"
 
 #: forum/templatetags/node_tags.py:126
 msgid "reopen"
-msgstr "дахин нээх"
+msgstr "эргүүлэн нээх"
 
 #: forum/templatetags/node_tags.py:128
 msgid "close"
@@ -5595,7 +5595,7 @@ msgstr "хаах"
 
 #: forum/templatetags/node_tags.py:131
 msgid "report"
-msgstr "мэдээ"
+msgstr "мэдээлэх"
 
 #: forum/templatetags/node_tags.py:139
 msgid "report as offensive (i.e containing spam, advertising, malicious text, etc.)"
@@ -5603,7 +5603,7 @@ msgstr "нийцгүй гэж мэдээлэх (жишээлбэл: спам, з
 
 #: forum/templatetags/node_tags.py:149
 msgid "undelete"
-msgstr "устгахгүй"
+msgstr "сэргээх"
 
 #: forum/templatetags/node_tags.py:156
 msgid "see revisions"
@@ -5631,11 +5631,11 @@ msgstr "Нийтлэгдсэн"
 
 #: forum/views/admin.py:141
 msgid "Questions Graph"
-msgstr "Асуултуудын Граф"
+msgstr "Асуултын бүдүүвч"
 
 #: forum/views/admin.py:145
 msgid "Users Graph"
-msgstr "Хэрэглэгчдийн Граф"
+msgstr "Хэрэглэгчдийн бүдүүвч"
 
 #: forum/views/admin.py:184
 msgid "'%s' settings saved succesfully"
@@ -5980,7 +5980,7 @@ msgstr "асуултуудыг хаах"
 
 #: forum/views/commands.py:403
 msgid "reopen questions"
-msgstr "асуултуудыг дахин нээх"
+msgstr "асуултуудыг эргүүлэн нээх"
 
 #: forum/views/commands.py:425 forum/views/commands.py:437
 msgid "mark posts as community wiki"
@@ -5996,11 +5996,11 @@ msgstr "асуултуудыг хариулт болгох"
 
 #: forum/views/commands.py:457
 msgid "Answer by %(uname)s: %(snippet)s..."
-msgstr "Answer by %(uname)s: %(snippet)s..."
+msgstr "%(uname)s хэрэглэгчийн хариу: %(snippet)s..."
 
 #: forum/views/commands.py:459
 msgid "Question"
-msgstr "асуулт"
+msgstr "Асуулт"
 
 #: forum/views/commands.py:468 forum/views/commands.py:471
 msgid "That is an invalid post to put the comment under"
@@ -6008,7 +6008,7 @@ msgstr "That is an invalid post to put the comment under"
 
 #: forum/views/commands.py:489 forum/views/commands.py:492
 msgid "convert comments to answers"
-msgstr "хариултуудыг асуулт болгох"
+msgstr "сэтгэгдлүүдийг асуулт болгох"
 
 #: forum/views/commands.py:507
 msgid "You do not have the correct credentials to preform this action."
@@ -6029,7 +6029,7 @@ msgstr "The number of points to award needs to be a positive value."
 
 #: forum/views/commands.py:640
 msgid "You have awarded %(awarded_user)s with %(points)d points"
-msgstr "You have awarded %(awarded_user)s with %(points)d points"
+msgstr "Та %(awarded_user)s хэрэглэгчийг %(points)d оноогоор шагналаа"
 
 #: forum/views/decorators.py:77
 msgid "We're sorry, but an unknown error ocurred.<br />Please try again in a while."
@@ -6118,7 +6118,7 @@ msgstr "шошго ашиглалтын давтамжаар эрэмбэлэх"
 
 #: forum/views/readers.py:72
 msgid " - "
-msgstr "␣-␣"
+msgstr " - "
 
 #: forum/views/readers.py:72
 msgid "latest questions"
@@ -6126,11 +6126,11 @@ msgstr "шинэ асуулт"
 
 #: forum/views/readers.py:85
 msgid "unanswered"
-msgstr "хариулаагүй"
+msgstr "хариугүй"
 
 #: forum/views/readers.py:89
 msgid "open questions without an accepted answer"
-msgstr "-н зөвшөөрсөн хариулт байхгүй нээлттэй асуулт байна"
+msgstr "зөвшөөрсөн хариултгүй нээлттэй асуулт"
 
 #: forum/views/readers.py:91
 msgid "Unanswered Questions"
@@ -6170,11 +6170,11 @@ msgstr "рейтинг"
 
 #: forum/views/readers.py:258
 msgid "relevance"
-msgstr "relevance"
+msgstr "холбогдол"
 
 #: forum/views/readers.py:258
 msgid "most relevant questions"
-msgstr "most relevant questions"
+msgstr "холбогдолтой асуултууд"
 
 #: forum/views/readers.py:266 forum/views/readers.py:268
 msgid "questions matching '%(keywords)s'"
