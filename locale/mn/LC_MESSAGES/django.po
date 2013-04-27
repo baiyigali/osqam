@@ -720,7 +720,7 @@ msgstr "тодорхойгүй"
 
 #: forum/actions/user.py:89
 msgid "%(user)s awarded an extra %(value)s reputation points to %(users)s: %(message)s"
-msgstr "%(user)s awarded an extra %(value)s reputation points to %(users)s: %(message)s"
+msgstr "%(user)s %(users)s хэрэглэгчийг %(value)s оноогоор шагнасан: %(message)s"
 
 #: forum/actions/user.py:94
 msgid "%(user)s penalised %(users)s in %(value)s reputation points: %(message)s"
@@ -742,7 +742,7 @@ msgstr[1] "оноо"
 
 #: forum/actions/user.py:126
 msgid "%(user)s awarded an extra %(value)s reputation points to %(users)s"
-msgstr "%(user)s awarded an extra %(value)s reputation points to %(users)s"
+msgstr "%(user)s %(users)s хэрэглэгчийг %(value)s оноогоор шагнасан"
 
 #: forum/actions/user.py:131
 msgid "%(user)s penalised %(users)s in %(value)s reputation points"
@@ -3771,11 +3771,11 @@ msgstr "Намайг нэвтэрсэний дараа миний цахим ш�
 
 #: forum/skins/default/templates/auth/signin.html:106
 msgid "Click"
-msgstr "Дарах"
+msgstr "Нэвтрэхэд бэрхшээлтэй байвал"
 
 #: forum/skins/default/templates/auth/signin.html:106
 msgid "if you're having trouble signing in."
-msgstr "хэрвээ нэвтрэхэд асуултай байгаа бол."
+msgstr "дарна уу."
 
 #: forum/skins/default/templates/auth/signin.html:111
 msgid "Enter your "
@@ -5078,7 +5078,7 @@ msgstr "дугаарласан жагсаалт"
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:26
 msgid "to add a line break simply add two spaces to where you would like the new line to be."
-msgstr "to add a line break simply add two spaces to where you would like the new line to be."
+msgstr "догол мөр нэмэх бол хоёр хоосон зай ашигла."
 
 #: forum/skins/default/templates/sidebar/markdown_help.html:29
 msgid "basic HTML tags are also supported"
