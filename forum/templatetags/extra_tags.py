@@ -158,9 +158,10 @@ def diff_date(date, limen=2):
     minutes = int(diff.seconds/60)
 
     if date.year != now.year:
-        return dateformat.format(date, 'd M \'y, H:i')
+        return dateformat.format(date, 'y/m/d')
+
     elif days > 2:
-        return dateformat.format(date, 'd M, H:i')
+        return dateformat.format(date, 'y/m/d H:i')
 
     elif days == 2:
         return _('2 days ago')
